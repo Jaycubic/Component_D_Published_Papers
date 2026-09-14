@@ -26,7 +26,7 @@ Papers were found via targeted searches (PubMed and related sources) using combi
 
 | Sheet | Contents |
 |---|---|
-| **Paper** | One row per paper, 17 rows. Columns: `paper_id`, `citation`, `doi_or_url`, `sample_size`, `n_events`, `prevalence`, `n_classifiers`, `winner`, `winner_score`, `runner_up_score`, `protocol`, `test_reported`, `claim_in_abstract`, `notes` |
+| **Paper** | One row per paper, 20 rows. Columns: `paper_id`, `citation`, `doi_or_url`, `sample_size`, `n_events`, `prevalence`, `n_classifiers`, `winner`, `winner_score`, `runner_up_score`, `protocol`, `test_reported`, `claim_in_abstract`, `notes` |
 | **Rejection Tally** | Candidate papers that were screened but did not qualify, grouped by reason (preprint, full text inaccessible, review/meta-analysis rather than a primary study, no single declared winner, sample size too small or unclear), with the two most common reasons highlighted |
 | **Notes on Difficult Fields** | A short account of which columns were genuinely hard to fill in consistently across papers, and the rule applied each time — e.g. what to do when a paper's *declared* winner doesn't match the numerically highest score in its own results table, or when reported prevalence describes data before a resampling step rather than what the models actually saw |
 
@@ -40,4 +40,4 @@ A few columns required a consistent rule rather than a single "correct" answer:
 
 ## Status
 
-17 of the eventual ~20-paper target collected. Two rows are reserved at the end of the Paper sheet for papers still pending intake.
+20 of the eventual ~20-paper target collected. Two rows are reserved at the end of the Paper sheet for papers still pending intake.
